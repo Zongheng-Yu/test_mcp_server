@@ -1,10 +1,21 @@
-# test_mcp_server
-
-my test mcp server
-
 # MCP 服务：
 
 MCP echo服务器，用于测试
+
+## mcp 服务器配置
+
+```json
+{
+  "mcpServers": {
+    "mohe_mcp_server": {
+        "command": "uvx",
+        "args": [
+          "mohe_mcp_server"
+        ]
+      }
+  }
+}
+```
 
 ## 📦 安装与部署
 
